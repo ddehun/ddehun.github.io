@@ -6,11 +6,13 @@ layout: page
 
 ## Contact Information
 
-[Email](qkrcogns2222@gmail.com)	
+- ChaeHun Park (박채훈)
 
-[Github](https://github.com/ddehun)
+- qkrcogns2222@gmail.com	
 
-[Linkedin](https://www.linkedin.com/in/chaehun-park-312b59119)
+- [Github](https://github.com/ddehun)
+
+- [Linkedin](https://www.linkedin.com/in/chaehun-park-312b59119)
 
 
 
@@ -19,6 +21,7 @@ layout: page
 *2018-03 - 2020-02*           KAIST, M.S, School of Computing
 
 > Advisor: Jong C. Park
+>
 > Thesis: Generating Diverse Sentential Arguments on Controversial Topics with a Memory-augmented Generation Model
 
 *2013-03 - 2018-02*           KAIST, B.S, School of Computing (major) and Dept. of Chemistry (minor)
@@ -39,7 +42,7 @@ Wonsuk Yang, Jung-is Ho Kim, Seungwon Yoon, **ChaeHun Park** and Jong C. Park. �
 
 *2020.03 - Present*	**Scatter Lab, Pingpong**
 
-> *Machine Learning Resarch Scientist Intern*
+> *Machine Learning Resarch Scientist (Intern)*
 
 *2017.07 - 2020.02*	**NOTA Inc.**
 
