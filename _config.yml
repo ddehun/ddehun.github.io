@@ -16,7 +16,7 @@ resume: true
 resume-external: true
 resume-url: https://google.com/?q=my+resume
 
-url: https://sergiokopplin.github.io/indigo
+url: https://ddehun.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -30,7 +30,7 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: mydisqus # enter this from your disqus account
+  shortname: ddehun # enter this from your disqus account
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
@@ -115,12 +115,16 @@ defaults:
       hidden: false
 
 plugins:
+  - github-pages
+  - html-proofer
   - jekyll-seo-tag
   - jekyll-gist
   - jekyll-feed
   - jemoji
   - jekyll-admin
   - jekyll-paginate-v2
+  - jekyll-fontawesome-svg
+
 
 jekyll-mentions:
   base_url: https://github.com
