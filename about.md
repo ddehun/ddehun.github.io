@@ -6,36 +6,42 @@ layout: page
 
 ## Contact Information
 
-- Email: [qkrcogns2222@gmail.com](qkrcogns2222@gmail.com)	/	[ddehun@kaist.ac.kr](ddehun@kaist.ac.kr)	
-- Github: [https://github.com/ddehun](https://github.com/ddehun)
-- Linkedin: [https://www.linkedin.com/in/chaehun-park-312b59119/](https://www.linkedin.com/in/chaehun-park-312b59119/)
+[Email](qkrcogns2222@gmail.com)	
+
+[Github](https://github.com/ddehun)
+
+[Linkedin](https://www.linkedin.com/in/chaehun-park-312b59119)
 
 
 
 ## Education
 
-*2018-03 - 2020-02*	KAIST, M.S, School of Computing
+*2018-03 - 2020-02*           KAIST, M.S, School of Computing
 
-- Advisor: Jong C. Park
-- Thesis: Generating Diverse Sentential Arguments on Controversial Topics with a Memory-augmented Generation Model
+> Advisor: Jong C. Park
+> Thesis: Generating Diverse Sentential Arguments on Controversial Topics with a Memory-augmented Generation Model
 
-*2013-03 - 2018-02*	KAIST, B.S, School of Computing (major) and Dept. of Chemistry (minor)
+*2013-03 - 2018-02*           KAIST, B.S, School of Computing (major) and Dept. of Chemistry (minor)
 
 
 
 ## Publication
 
-- **ChaeHun Park**, Wonsuk Yang and Jong C. Park. “Generating Sentential Arguments from Diverse Perspectives on Controversial Topic”, *2nd Workshop on NLP for Internet Freedom (NLP4IF): Censorship, Disinformation, and Propaganda*, Hong Kong SAR, November 3, 2019. A workshop at EMNLP-IJCNLP 2019.
-- Wonsuk Yang, Jung-is Ho Kim, Seungwon Yoon, **ChaeHun Park** and Jong C. Park. “A Corpus of Sentence-level Annotations of Local Acceptability with Reasons”, *33rd Pacific Asia Conference on Language, Information and Computation (PACLIC 33)*, Hakodate, Japan, September 13-15, 2019.
-- **ChaeHun Park**, Wonsuk Yang and Jong C. Park. “Extracting Supporting Evidence with High Precision via Bi-LSTM Network”, *30th Annual Conference on Human & Cognitive Language Technology (HCLT 2018)*, Korea University, Seoul, Korea, October 12-13, 2018.
+**ChaeHun Park**, Wonsuk Yang and Jong C. Park. “Generating Sentential Arguments from Diverse Perspectives on Controversial Topic”, *2nd Workshop on NLP for Internet Freedom (NLP4IF): Censorship, Disinformation, and Propaganda*, Hong Kong SAR, November 3, 2019. A workshop at EMNLP-IJCNLP 2019.
+
+Wonsuk Yang, Jung-is Ho Kim, Seungwon Yoon, **ChaeHun Park** and Jong C. Park. “A Corpus of Sentence-level Annotations of Local Acceptability with Reasons”, *33rd Pacific Asia Conference on Language, Information and Computation (PACLIC 33)*, Hakodate, Japan, September 13-15, 2019.
+
+**ChaeHun Park**, Wonsuk Yang and Jong C. Park. “Extracting Supporting Evidence with High Precision via Bi-LSTM Network”, *30th Annual Conference on Human & Cognitive Language Technology (HCLT 2018)*, Korea University, Seoul, Korea, October 12-13, 2018.
 
 
 
 ## Experience
 
 *2020.03 - Present*	**Scatter Lab, Pingpong**
-								 *Machine Learning Resarch Scientist Intern*
+
+> *Machine Learning Resarch Scientist Intern*
 
 *2017.07 - 2020.02*	**NOTA Inc.**
-								 *Intern*
+
+> *Intern*
 
