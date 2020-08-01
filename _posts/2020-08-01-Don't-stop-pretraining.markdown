@@ -8,7 +8,7 @@ tag:
 - ACL2020
 - Pretraining
 - Domain
-star: true
+star: false
 category: blog
 author: chaehun
 description: Paper Summary
