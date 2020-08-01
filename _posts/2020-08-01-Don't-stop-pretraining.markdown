@@ -9,6 +9,7 @@ tag:
 - Pretraining
 - Domain
 star: false
+comments: true
 category: blog
 author: chaehun
 description: Paper Summary

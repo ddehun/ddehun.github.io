@@ -52,12 +52,12 @@ github: ddehun
 # lanyrd: mylanyrd
 email: qkrcogns2222@gmail.com
 
-# authors:
-#   johndoe:
-#     name: ChaeHun Park
-#     bio: A Man who travels the world eating noodles
-#     external-image: false
-#     picture: assets/images/profile.jpg
+authors:
+  ddehun:
+    name: ChaeHun Park
+    bio: Hihi
+    external-image: false
+    picture: assets/images/profile.jpg
 #     twitter: johndoe
 #   jamesfoster:
 #     name: James Foster
