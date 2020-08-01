@@ -1,20 +1,16 @@
 ---
-title: "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks, ACL2020"
+title: "Markdown Common Elements"
 layout: post
-date: 2020-08-01 12:00
+date: 2016-02-24 22:44
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- ACL2020
-- Pretraining
-- Domain
-star: false
-comments: true
+- markdown
+- elements
+star: true
 category: blog
-author: ddehun
-comments: true
-description: Paper Summary
-
+author: johndoe
+description: Markdown summary with different options
 ---
 
 ## 논문 정보
