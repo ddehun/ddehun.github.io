@@ -44,7 +44,7 @@ BERT, GPT와 같은 언어모델은 실제 목표로 하는 downstream task와 �
 
 ![table1](/assets/images/dontstop/table1.png)
 
-표 가장 왼쪽의 두 column은 각 도메인 데이터셋에 대한 MLM loss이며, RoBERTa를 바로 평가한 것과 DAPT를 거친 후 평가한 결과입니다. News 도메인을 제외하면 모든 도메인에 대해 DAPT를 거친 RoBERTa가 보다 낮은 MLM loss를 보임을 알 수 있습니다. 이를 통해 DAPT의 유효성을 간접적으로 검증할 수 있습니다.
+표 가장 오른쪽의 두 column은 각 도메인 데이터셋에 대한 MLM loss이며, RoBERTa를 바로 평가한 것과 DAPT를 거친 후 평가한 결과입니다. News 도메인을 제외하면 모든 도메인에 대해 DAPT를 거친 RoBERTa가 보다 낮은 MLM loss를 보임을 알 수 있습니다. 이를 통해 DAPT의 유효성을 간접적으로 검증할 수 있습니다.
 
 이에 대한 이유로써, 사전학습 코퍼스와 각 도메인 데이터 사이의 frequent unigram 분포를 기준으로 분석할 수 있습니다. 결과는 아래 그림과 같습니다. 사전학습 코퍼스와 리뷰/뉴스 도메인 데이터 사이의 단어 분포가 비슷한데 반해, 상대적으로 BioMed나 CS 도메인 데이터와는 unigram 분포가 다름을 알 수 있습니다. 이를 통해, 사전학습 과정에서는 자주 만나지 못한 BioMed나 CS 도메인에서 보다 좋은 성능 향상을 예상할 수 있습니다.
 
@@ -78,14 +78,21 @@ BERT, GPT와 같은 언어모델은 실제 목표로 하는 downstream task와 �
 
 ## Data Augmentation for TAPT
 
+위의 실험을 통해 TAPT는 상대적으로 적은 데이터 크기도 어느 정도 좋은 성능을 보임을 알 수 있었습니다. 이를 통해, 큰 크기의 도메인 데이터 중에서 task와 관련이 높은 데이터만을 수집해서 사전학습을 진행하면 연산량은 줄이면서 더 좋은 성능을 보일 것이라는 생각을 할 수 있습니다. 이를 위해 본 논문은 DAPT 및 TAPT에 사용된 모든 데이터를 연속적인 공간 상에 임베딩 시키고, TAPT에 사용된 데이터와 가까이 있는 DAPT 데이터를 k-NN 알고리즘을 통해 골라 사전 학습에 사용하는 방법론을 제안합니다. 데이터의 임베딩에는 빠른 연산 속도를 위해 VAMPIRE [[4]](https://arxiv.org/pdf/1906.02242.pdf)를 사용하였습니다. 이에 대한 설명 및 결과는 아래 그림과 같습니다. 예상한 것과 같이, 실제 target task와 가까운 공간 상에 있는 도메인 데이터를 많이 사용할수록 보다 높은 성능을 보임을 알 수 있습니다.
+
 ![figure3](/assets/images/dontstop/figure3.png)
 
-위의 실험을 통해 TAPT는 상대적으로 적은 데이터 크기도 어느 정도 좋은 성능을 보임을 알 수 있었습니다. 이를 통해, 큰 크기의 도메인 데이터 중에서 task와 관련이 높은 데이터만을 수집해서 사전학습을 진행하면 연산량은 줄이면서 더 좋은 성능을 보일 것이라는 생각을 할 수 있습니다.
+![table8](/assets/images/dontstop/table8.png)
 
+## 결론
 
+- 아무리 많은 데이터로 사전 학습한 언어 모델이라도, 모든 도메인에 대한 지식을 담기는 어렵습니다.
+- Fine-tuning을 진행하는 task와 관련된 도메인의 데이터셋, 혹은 task 데이터셋 자체로 사전 학습을 하는 것 만으로도 성능 향상을 도모할 수 있습니다.
+- Data selection, 도메인 간의 전이 학습 등 다양한 연구 방향성을 제시합니다.
 
 
 
 [1]: https://arxiv.org/pdf/1907.11692.pdf
 [2]: https://arxiv.org/pdf/1801.06146.pdf
 [3]: https://arxiv.org/pdf/1908.11860.pdf
+[4]: https://arxiv.org/pdf/1906.02242.pdf
