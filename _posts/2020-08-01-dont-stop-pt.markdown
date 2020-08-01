@@ -1,16 +1,18 @@
 ---
-title: "Markdown Common Elements"
+title: "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks, ACL2020"
 layout: post
-date: 2016-02-24 22:44
+date: 2020-08-01 12:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- elements
-star: true
+- ACL2020
+- Pretraining
+- Domain
+star: false
 category: blog
-author: johndoe
-description: Markdown summary with different options
+author: ddehun
+description: Paper Summary
+
 ---
 
 ## 논문 정보
@@ -85,10 +87,12 @@ BERT, GPT와 같은 언어모델은 실제 목표로 하는 downstream task와 �
 ## 결론
 
 - 아무리 많은 데이터로 사전 학습한 언어 모델이라도, 모든 도메인에 대한 지식을 담기는 어렵습니다.
+
 - Fine-tuning을 진행하는 task와 관련된 도메인의 데이터셋, 혹은 task 데이터셋 자체로 사전 학습을 하는 것 만으로도 성능 향상을 도모할 수 있습니다.
+
 - Data selection, 도메인 간의 전이 학습 등 다양한 연구 방향성을 제시합니다.
 
-
+  
 
 [1]: https://arxiv.org/pdf/1907.11692.pdf
 [2]: https://arxiv.org/pdf/1801.06146.pdf
