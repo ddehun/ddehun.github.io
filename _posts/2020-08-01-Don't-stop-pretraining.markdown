@@ -11,7 +11,8 @@ tag:
 star: false
 comments: true
 category: blog
-author: chaehun
+author: ddehun
+comments: true
 description: Paper Summary
 
 ---
