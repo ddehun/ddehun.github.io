@@ -145,3 +145,5 @@ exclude:
     "node_modules",
     "vendor",
   ]
+plugins:
+  - jekyll-sitemap
