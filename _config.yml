@@ -55,7 +55,7 @@ email: qkrcogns2222@gmail.com
 authors:
   ddehun:
     name: ChaeHun Park
-    bio: Hihi
+# bio: Hihi
     external-image: false
     picture: assets/images/profile.jpg
 #     twitter: johndoe
