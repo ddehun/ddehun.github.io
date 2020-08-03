@@ -1,5 +1,5 @@
 ---
-title: "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks, ACL2020"
+title: "Don't Stop Pretraining: Adapt Language Models to Domains and Tasks(ACL2020) 논문 정리"
 layout: post
 date: 2020-08-01 12:00
 image: /assets/images/markdown.jpg
