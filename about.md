@@ -17,8 +17,13 @@ layout: page
 
 
 ## Education
+*2020.09 - present*           KAIST, Ph.D candidate 
 
-*2018-03 - 2020-02*           KAIST, M.S. 
+> School of Computing
+>
+> Advisor: Jong C. Park
+
+*2018.03 - 2020.02*           KAIST, M.S. 
 
 > School of Computing
 >
@@ -26,7 +31,7 @@ layout: page
 >
 > Thesis: Generating Diverse Sentential Arguments on Controversial Topics with a Memory-augmented Generation Model
 
-*2013-03 - 2018-02*           KAIST, B.S.
+*2013.03 - 2018.02*           KAIST, B.S.
 
 > School of Computing (major) 
 > 
@@ -46,7 +51,7 @@ Wonsuk Yang, Jung-is Ho Kim, Seungwon Yoon, **ChaeHun Park** and Jong C. Park. â
 
 ## Experience
 
-*2020.03 - Present*	**Scatter Lab, Pingpong**
+*2020.03 - 2020.08*	**Scatter Lab, Pingpong**
 
 > *Research Intern*
 
