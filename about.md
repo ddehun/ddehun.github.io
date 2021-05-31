@@ -41,7 +41,9 @@ layout: page
 
 ## Publication
 
-**ChaeHun Park**, Eugene Jang, Wonsuk Yang and Jong C. Park. "Generating Negative Samples by Manipulating Golden Responses for Unsupervised Learning of a Response Evaluation Model", NAACL-HLT 2021 (accepted)
+Soyeong Jeong, Jinheon Baek, **ChaeHun Park**, and Jong C. Park. "Unsupervised Document Expansion for Information Retrieval with Stochastic Text Generation", SDP2021, A workshop at NAACL-HLT 2021
+
+**ChaeHun Park**, Eugene Jang, Wonsuk Yang and Jong C. Park. "Generating Negative Samples by Manipulating Golden Responses for Unsupervised Learning of a Response Evaluation Model", NAACL-HLT 2021
 
 **ChaeHun Park** and Sangwoo Seo. "An Empirical Study on Measuring the Similarity of Sentential Arguments with Language Model Domain Adaptation", Arxiv preprint, February 19, 2021.
 
