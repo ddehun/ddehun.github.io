@@ -45,6 +45,8 @@ Soyeong Jeong, Jinheon Baek, **ChaeHun Park**, and Jong C. Park. "Unsupervised D
 
 **ChaeHun Park**, Eugene Jang, Wonsuk Yang and Jong C. Park. "Generating Negative Samples by Manipulating Golden Responses for Unsupervised Learning of a Response Evaluation Model", NAACL-HLT 2021
 
+Soyeong Jeong, Wonsuk Yang, **ChaeHun Park**, and Jong C. Park. "Calibration of Pre-trained Language Model for Korean", Journal of KIISE, Vol. 48, No. 4, pp. 434-443, April, 2021.
+
 **ChaeHun Park** and Sangwoo Seo. "An Empirical Study on Measuring the Similarity of Sentential Arguments with Language Model Domain Adaptation", Arxiv preprint, February 19, 2021.
 
 Soyeong Jeong, Wonsuk Yang, **ChaeHun Park**, and Jong C. Park. "Calibration of Pre-trained Language Model for Korean", *32th Annual Conference on Human & Cognitive Language Technology (HCLT 2020)*, October 15-16, 2020.
